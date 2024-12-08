@@ -17,7 +17,7 @@ import java.io.*;
 public class DesignationDAO implements DesignationDAOInterface
 {
 //private static final String FILE_NAME = "designation.data";
-private static final String FILE_NAME = "D:\\git\\emp-management-app\\back-end\\Employee-Management\\designation.data";
+private static final String FILE_NAME = "D:\\Employee-Management\\designation.data";
 
 public void add(DesignationDTOInterface designationDTO) throws DAOException
 {
