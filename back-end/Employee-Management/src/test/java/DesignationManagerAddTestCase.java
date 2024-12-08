@@ -9,7 +9,7 @@ class DesignationManagerAddTestCase
 public static void main(String arg[])
 {
 DesignationInterface designation = new Designation();
-designation.setTitle("Driver");
+designation.setTitle("river");
 try{
 DesignationManagerInterface designationManager;
 designationManager = DesignationManager.getDesignationManager();
