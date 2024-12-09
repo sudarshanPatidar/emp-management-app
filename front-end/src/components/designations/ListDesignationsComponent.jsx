@@ -2,9 +2,10 @@ import { useEffect, useState } from "react"
 import {useNavigate} from 'react-router-dom'
 import { deleteDesignationApi, retrieveAllDesignations } from "./api/DesignationApiService"
 // import { useAuth } from "./security/AuthContext"
+import './ListDesignationsComponent.css'
+
 
 function ListDesignationsComponent() {
-
 
     // const authContext = useAuth()
 
