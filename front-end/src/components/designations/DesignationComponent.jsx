@@ -136,7 +136,7 @@ export default function DesignationComponent() {
     const navigate = useNavigate();
 
     const retrieveDesignations = useCallback(() => {
-        if (code !==  -1) {
+        if (code !=  -1) {
             retrieveDesignationByCodeApi(code)
                 .then(response => {
                     setTitle(response.data.title);
@@ -155,7 +155,7 @@ export default function DesignationComponent() {
             title: values.title,
         };
 
-        if (code === -1) {
+        if (code == -1) {
             const newDesignation = {
                 code: 0,
                 title: values.title,
