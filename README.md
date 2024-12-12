@@ -93,5 +93,3 @@ Ensure you have the following installed:
   
   -Log in with your admin credentials.
   -Use the dashboard to manage employees and designations.
-  -Search or filter employees and designations as needed.
-  -View analytics for employee and designation distribution.
